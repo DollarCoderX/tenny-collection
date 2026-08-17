@@ -72,7 +72,9 @@ function AboutPage() {
         </Reveal>
         <Reveal delay={100} className="space-y-5">
           <p className="eyebrow">Where it began</p>
-          <h2 className="font-display text-4xl sm:text-5xl">Built around how women actually dress.</h2>
+          <h2 className="font-display text-4xl sm:text-5xl">
+            Built around how women actually dress.
+          </h2>
           <p className="text-sm leading-relaxed text-muted-foreground">
             Tenny Collection started with a simple frustration: finding bags and slippers that felt
             elevated without the price of a designer label, and without the wear-and-tear of fast

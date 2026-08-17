@@ -24,8 +24,8 @@ function PrivacyPage() {
       <h1 className="font-display text-5xl">Privacy Policy</h1>
       <div className="mt-8 space-y-6 text-sm leading-relaxed text-muted-foreground">
         <p>
-          We collect only the information needed to process and deliver your order: your name,
-          email address, phone number and delivery address.
+          We collect only the information needed to process and deliver your order: your name, email
+          address, phone number and delivery address.
         </p>
         <p>
           Your details are never sold or shared for marketing by third parties. We share your

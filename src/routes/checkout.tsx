@@ -21,7 +21,10 @@ export const Route = createFileRoute("/checkout")({
   head: () => ({
     meta: [
       { title: "Checkout - Tenny Collection" },
-      { name: "description", content: "Complete your Tenny Collection order with delivery details." },
+      {
+        name: "description",
+        content: "Complete your Tenny Collection order with delivery details.",
+      },
       { property: "og:title", content: "Checkout - Tenny Collection" },
       { property: "og:description", content: "Complete your Tenny Collection order." },
       { property: "og:url", content: "/checkout" },

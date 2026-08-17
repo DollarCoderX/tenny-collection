@@ -17,7 +17,10 @@ export const Route = createFileRoute("/product/$slug")({
   head: ({ loaderData, params }) => {
     if (!loaderData) {
       return {
-        meta: [{ title: "Product unavailable — Tenny Collection" }, { name: "robots", content: "noindex" }],
+        meta: [
+          { title: "Product unavailable — Tenny Collection" },
+          { name: "robots", content: "noindex" },
+        ],
       };
     }
     const { product } = loaderData;
@@ -114,7 +117,9 @@ function ProductPage() {
               </span>
             )}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-muted-foreground">{product.description}</p>
+          <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+            {product.description}
+          </p>
 
           <div className="mt-8">
             <p className="eyebrow mb-3">Colour</p>

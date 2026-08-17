@@ -40,14 +40,24 @@ export const Route = createFileRoute("/")({
 });
 
 const categories = [
-  { title: "Bags", copy: "Carry confidence everywhere.", image: catBags, search: { category: "bags" as const } },
+  {
+    title: "Bags",
+    copy: "Carry confidence everywhere.",
+    image: catBags,
+    search: { category: "bags" as const },
+  },
   {
     title: "Slippers",
     copy: "Comfort meets effortless style.",
     image: catSlippers,
     search: { category: "slippers" as const },
   },
-  { title: "New Arrivals", copy: "Fresh pieces, made to be noticed.", image: catNew, search: { category: "all" as const } },
+  {
+    title: "New Arrivals",
+    copy: "Fresh pieces, made to be noticed.",
+    image: catNew,
+    search: { category: "all" as const },
+  },
 ];
 
 const socialImages = [ig1, ig2, ig3, ig4];
@@ -59,7 +69,10 @@ function Index() {
     <>
       <Hero />
 
-      <section className="mx-auto max-w-7xl px-5 py-24 sm:px-8" aria-labelledby="categories-heading">
+      <section
+        className="mx-auto max-w-7xl px-5 py-24 sm:px-8"
+        aria-labelledby="categories-heading"
+      >
         <Reveal className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="eyebrow">Explore</p>
@@ -112,7 +125,11 @@ function Index() {
                 Best sellers
               </h2>
             </div>
-            <Link to="/shop" search={{ category: "all" }} className="text-sm underline underline-offset-4">
+            <Link
+              to="/shop"
+              search={{ category: "all" }}
+              className="text-sm underline underline-offset-4"
+            >
               Shop all
             </Link>
           </Reveal>

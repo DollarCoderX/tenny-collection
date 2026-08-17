@@ -105,8 +105,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       .filter(Boolean) as CartItem[];
 
     const subtotal = items.reduce((sum, i) => sum + i.product.price * i.quantity, 0);
-    const deliveryFee =
-      subtotal === 0 || subtotal >= FREE_DELIVERY_THRESHOLD ? 0 : DELIVERY_FEE;
+    const deliveryFee = subtotal === 0 || subtotal >= FREE_DELIVERY_THRESHOLD ? 0 : DELIVERY_FEE;
 
     return {
       lines,

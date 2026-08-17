@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 const specs = [
   { label: "Structured build", value: "Holds its shape all day" },
-  { label: "Everyday capacity", value: "Fits a 13\" laptop" },
+  { label: "Everyday capacity", value: 'Fits a 13" laptop' },
   { label: "Finish", value: "Soft grained, wipe clean" },
 ];
 
@@ -48,13 +48,19 @@ export function Spotlight() {
           <div className="order-2 lg:order-1">
             <p
               className="eyebrow transition-all duration-500"
-              style={{ opacity: progress > 0.1 ? 1 : 0, transform: `translateY(${progress > 0.1 ? 0 : 14}px)` }}
+              style={{
+                opacity: progress > 0.1 ? 1 : 0,
+                transform: `translateY(${progress > 0.1 ? 0 : 14}px)`,
+              }}
             >
               Signature piece
             </p>
             <h2
               className="mt-3 font-display text-4xl transition-all duration-700 sm:text-6xl"
-              style={{ opacity: progress > 0.15 ? 1 : 0, transform: `translateY(${progress > 0.15 ? 0 : 20}px)` }}
+              style={{
+                opacity: progress > 0.15 ? 1 : 0,
+                transform: `translateY(${progress > 0.15 ? 0 : 20}px)`,
+              }}
             >
               {product.name}
             </h2>
@@ -78,7 +84,10 @@ export function Spotlight() {
 
             <div
               className="mt-8 transition-all duration-700"
-              style={{ opacity: progress > 0.62 ? 1 : 0, transform: `translateY(${progress > 0.62 ? 0 : 16}px)` }}
+              style={{
+                opacity: progress > 0.62 ? 1 : 0,
+                transform: `translateY(${progress > 0.62 ? 0 : 16}px)`,
+              }}
             >
               <div className="flex flex-wrap gap-2">
                 {product.colors.map((c) => (

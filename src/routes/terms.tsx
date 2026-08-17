@@ -32,8 +32,8 @@ function TermsPage() {
           contact you with payment instructions after your order is submitted.
         </p>
         <p>
-          Unused items in their original packaging may be returned within 7 days of delivery.
-          Return shipping is covered by the customer unless the item arrived faulty.
+          Unused items in their original packaging may be returned within 7 days of delivery. Return
+          shipping is covered by the customer unless the item arrived faulty.
         </p>
         <p>
           Product photography is representative; slight variation in colour can occur between

@@ -37,7 +37,10 @@ export function ProductCard({
         <Link
           to="/product/$slug"
           params={{ slug: product.slug }}
-          className={cn("relative block overflow-hidden bg-blush-soft", layout === "grid" && "aspect-4/5")}
+          className={cn(
+            "relative block overflow-hidden bg-blush-soft",
+            layout === "grid" && "aspect-4/5",
+          )}
           aria-label={product.name}
         >
           <img
